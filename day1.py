@@ -107,12 +107,12 @@ radius = float(input("Enter the radius of the circle: "))
 area = math.pi*radius**2
 print(f"The area of the circle is {area: .2f}")'''
 
-
+#Hypotenuse of the triangle 
 import math
 b = float(input("Enter the base of the triangle: "))
 p = float(input("Enter the perpendicular of the triangle: "))
 h = math.sqrt(b**2 + p**2)
-print(f"The hypotenuse of the trianle is{h: .2f}")
+print(f"The hypotenuse of the triangle is{h: .2f}")
 
 
 
